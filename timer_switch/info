@@ -1,0 +1,369 @@
+{
+  "uuid": "c4b323410dc2e969e4a2bec63895248e",
+  "path": "Offline/timer_switch",
+  "name": "timer_switch",
+  "content": "",
+  "created_at": "2021-03-21 08:54:51",
+  "updated_at": "2021-04-08 13:04:24",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "1bb49a37ec127e3d07f08f6ca87dc17c",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "31cf28070dccc103e665da3cc44936e6": 3,
+        "43adef57bed7418c9a20592a8a8bc333": 1,
+        "c9e06da6465347a1bad3f3077cc0a5f9": 1,
+        "b1a09d1d55a9439a9f832046acad0ec6": 2,
+        "c4157fa1227a4385928599384c41e5b2": 1,
+        "7ea5de8e8f764cbb888d3dabd71333fb": 1,
+        "dffcf9f8b4f44ad3953362d763dfd4a2": 1,
+        "55792152921e4dd39bca0a771a78f25e": 5,
+        "e1d8658f862c4d0f97fbf62a4dc584b9": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BJT NPN",
+          1,
+          "TO-92",
+          "Q1",
+          {
+            "BOM_Mounted": "Yes",
+            "BOM_Manufacturer Part": "",
+            "puuid": "54315444ad7646799b984662a7687a94",
+            "uuid": "7ea5de8e8f764cbb888d3dabd71333fb"
+          }
+        ],
+        [
+          "CD4026BE",
+          3,
+          "DIP-16_L20.3-W10.2-P2.54-LS10.2-BL",
+          "U1,U3,U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "CD4026BE",
+            "BOM_Supplier Part": "C89909",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "expand",
+            "puuid": "7e10a45c45da41da8c852bb0f30065ca",
+            "uuid": "31cf28070dccc103e665da3cc44936e6"
+          }
+        ],
+        [
+          "XD74LS11",
+          1,
+          "DIP-14_L19.4-W6.4-P2.54-LS7.6-BL",
+          "U7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C521167",
+            "BOM_Manufacturer": "XINLUDA(信路达)",
+            "BOM_Manufacturer Part": "XD74LS11",
+            "puuid": "bc4f84bbd42e4f5d87faf0847f8429e7",
+            "uuid": "43adef57bed7418c9a20592a8a8bc333"
+          }
+        ],
+        [
+          "100uF",
+          2,
+          "CAP-TH_L7.2-W3.5-P5.00-D0.5",
+          "C1,C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Calibration capacitor100nF（104）100V,5%",
+            "BOM_Supplier Part": "C26609",
+            "puuid": "b460d747c63a401193139db5d6031771",
+            "uuid": "55792152921e4dd39bca0a771a78f25e"
+          }
+        ],
+        [
+          "220uF",
+          1,
+          "CAP-TH_L7.2-W3.5-P5.00-D0.5",
+          "C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Calibration capacitor100nF（104）100V,5%",
+            "BOM_Supplier Part": "C26609",
+            "puuid": "b460d747c63a401193139db5d6031771",
+            "uuid": "55792152921e4dd39bca0a771a78f25e"
+          }
+        ],
+        [
+          "330uF",
+          1,
+          "CAP-TH_L7.2-W3.5-P5.00-D0.5",
+          "C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Calibration capacitor100nF（104）100V,5%",
+            "BOM_Supplier Part": "C26609",
+            "puuid": "b460d747c63a401193139db5d6031771",
+            "uuid": "55792152921e4dd39bca0a771a78f25e"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_L7.2-W3.5-P5.00-D0.5",
+          "C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Calibration capacitor100nF（104）100V,5%",
+            "BOM_Supplier Part": "C26609",
+            "puuid": "b460d747c63a401193139db5d6031771",
+            "uuid": "55792152921e4dd39bca0a771a78f25e"
+          }
+        ],
+        [
+          "RESISTOR",
+          2,
+          "0.4W 1% RESISTOR",
+          "U8,U16",
+          {
+            "BOM_Manufacturer Part": "0.4W 1% RESISTOR",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "64617e9484794e3c8d2b4f143de0bfcc",
+            "uuid": "b1a09d1d55a9439a9f832046acad0ec6"
+          }
+        ],
+        [
+          "Test Timer SCH",
+          1,
+          "IC  555",
+          "U11",
+          {
+            "BOM_Manufacturer Part": "555 Timer",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "08decb32086b4f23aeddef02c1b155c1",
+            "uuid": "c9e06da6465347a1bad3f3077cc0a5f9"
+          }
+        ],
+        [
+          "SONGLE",
+          1,
+          "SONGLE",
+          "U17",
+          {
+            "BOM_Manufacturer Part": "SONGLE",
+            "puuid": "3e4828df35cb4999b2184fda2580abbc",
+            "uuid": "c4157fa1227a4385928599384c41e5b2"
+          }
+        ],
+        [
+          "SQ POWER SUPPLY",
+          1,
+          "SQ POWER SUPPLY",
+          "U19",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "c9df429d165d49f29a6255af606c5d46",
+            "uuid": "dffcf9f8b4f44ad3953362d763dfd4a2"
+          }
+        ],
+        [
+          "Morsettiera_3_vie",
+          2,
+          "WJ2EDGV-5.08-3P",
+          "P1,P2",
+          {
+            "BOM_Supplier Part": "C23595",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Terminals/WJ2EDGV-5.08-8P",
+            "puuid": "604a752315cf4706a057c8b127801091",
+            "uuid": "e1d8658f862c4d0f97fbf62a4dc584b9"
+          }
+        ]
+      ],
+      "updateTime": 1616658372,
+      "createTime": 1616306101,
+      "histories": [],
+      "created_at": "2021-03-21 08:55:01",
+      "updated_at": "2021-03-25 10:46:12"
+    },
+    {
+      "uuid": "3922e28edda08448b29f21f325221153",
+      "puuid": "c4b323410dc2e969e4a2bec63895248e",
+      "title": "PCB_Power Module",
+      "filename": "PCB_Power Module.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c9df429d165d49f29a6255af606c5d46": 1
+      },
+      "BOM": [],
+      "updateTime": 1616325248,
+      "createTime": 1616325248,
+      "histories": [],
+      "created_at": "2021-03-21 14:14:08",
+      "updated_at": "2021-03-21 14:14:08"
+    },
+    {
+      "uuid": "d91724c0330e6f115f5eb1528c2245f4",
+      "puuid": "c4b323410dc2e969e4a2bec63895248e",
+      "title": "PCB_timer_switch",
+      "filename": "PCB_timer_switch.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "54315444ad7646799b984662a7687a94": 1,
+        "7e10a45c45da41da8c852bb0f30065ca": 3,
+        "bc4f84bbd42e4f5d87faf0847f8429e7": 1,
+        "b460d747c63a401193139db5d6031771": 5,
+        "64617e9484794e3c8d2b4f143de0bfcc": 2,
+        "08decb32086b4f23aeddef02c1b155c1": 1,
+        "3e4828df35cb4999b2184fda2580abbc": 1,
+        "c9df429d165d49f29a6255af606c5d46": 1,
+        "604a752315cf4706a057c8b127801091": 2
+      },
+      "BOM": [],
+      "updateTime": 1616572641,
+      "createTime": 1616328918,
+      "histories": [],
+      "created_at": "2021-03-21 15:15:18",
+      "updated_at": "2021-03-24 10:57:21"
+    },
+    {
+      "uuid": "5c782b3330f624e1ad313a38abb728b7",
+      "puuid": "c4b323410dc2e969e4a2bec63895248e",
+      "title": "PCB_timer_switch_2",
+      "filename": "PCB_timer_switch_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "54315444ad7646799b984662a7687a94": 1,
+        "7e10a45c45da41da8c852bb0f30065ca": 3,
+        "bc4f84bbd42e4f5d87faf0847f8429e7": 1,
+        "b460d747c63a401193139db5d6031771": 5,
+        "64617e9484794e3c8d2b4f143de0bfcc": 2,
+        "08decb32086b4f23aeddef02c1b155c1": 1,
+        "3e4828df35cb4999b2184fda2580abbc": 1,
+        "c9df429d165d49f29a6255af606c5d46": 1,
+        "604a752315cf4706a057c8b127801091": 2
+      },
+      "BOM": [],
+      "updateTime": 1616506254,
+      "createTime": 1616504969,
+      "histories": [],
+      "created_at": "2021-03-23 16:09:29",
+      "updated_at": "2021-03-23 16:30:54"
+    },
+    {
+      "uuid": "05ff90a7227add800791d75b12570d3d",
+      "puuid": "c4b323410dc2e969e4a2bec63895248e",
+      "title": "PCB_timer_switch_3",
+      "filename": "PCB_timer_switch_3.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "54315444ad7646799b984662a7687a94": 1,
+        "7e10a45c45da41da8c852bb0f30065ca": 3,
+        "bc4f84bbd42e4f5d87faf0847f8429e7": 1,
+        "b460d747c63a401193139db5d6031771": 5,
+        "64617e9484794e3c8d2b4f143de0bfcc": 2,
+        "08decb32086b4f23aeddef02c1b155c1": 1,
+        "3e4828df35cb4999b2184fda2580abbc": 1,
+        "c9df429d165d49f29a6255af606c5d46": 1,
+        "604a752315cf4706a057c8b127801091": 2
+      },
+      "BOM": [],
+      "updateTime": 1617020625,
+      "createTime": 1616506268,
+      "histories": [],
+      "created_at": "2021-03-23 16:31:08",
+      "updated_at": "2021-03-29 15:23:45"
+    },
+    {
+      "uuid": "f376baa842e13ad336a155c2541bd594",
+      "puuid": "c4b323410dc2e969e4a2bec63895248e",
+      "title": "PCB_timer_switch_4",
+      "filename": "PCB_timer_switch_4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "54315444ad7646799b984662a7687a94": 1,
+        "7e10a45c45da41da8c852bb0f30065ca": 3,
+        "bc4f84bbd42e4f5d87faf0847f8429e7": 1,
+        "b460d747c63a401193139db5d6031771": 5,
+        "64617e9484794e3c8d2b4f143de0bfcc": 2,
+        "08decb32086b4f23aeddef02c1b155c1": 1,
+        "3e4828df35cb4999b2184fda2580abbc": 1,
+        "c9df429d165d49f29a6255af606c5d46": 1,
+        "604a752315cf4706a057c8b127801091": 2
+      },
+      "BOM": [],
+      "updateTime": 1617876264,
+      "createTime": 1617009017,
+      "histories": [],
+      "created_at": "2021-03-29 12:10:17",
+      "updated_at": "2021-04-08 13:04:24"
+    },
+    {
+      "uuid": "b4b09f6dd77c4cc597bd15486d5d4858",
+      "puuid": "c4b323410dc2e969e4a2bec63895248e",
+      "title": "PCB_timer_switch_5",
+      "filename": "PCB_timer_switch_5.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "54315444ad7646799b984662a7687a94": 1,
+        "7e10a45c45da41da8c852bb0f30065ca": 3,
+        "bc4f84bbd42e4f5d87faf0847f8429e7": 1,
+        "b460d747c63a401193139db5d6031771": 5,
+        "64617e9484794e3c8d2b4f143de0bfcc": 2,
+        "08decb32086b4f23aeddef02c1b155c1": 1,
+        "3e4828df35cb4999b2184fda2580abbc": 1,
+        "c9df429d165d49f29a6255af606c5d46": 1,
+        "604a752315cf4706a057c8b127801091": 2
+      },
+      "BOM": [],
+      "updateTime": 1617867935,
+      "createTime": 1617867935,
+      "histories": [],
+      "created_at": "2021-04-08 10:45:35",
+      "updated_at": "2021-04-08 10:45:35"
+    }
+  ],
+  "sort": [
+    "1bb49a37ec127e3d07f08f6ca87dc17c",
+    "f4fbd89a7d6ff3bcdd798a7116cf6a07"
+  ],
+  "title": "timer_switch",
+  "foldername": "timer_switch",
+  "schfilename": "timer_switch.json",
+  "schfilemtime": 1616658372389
+}
